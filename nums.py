@@ -1,9 +1,11 @@
+# Вводим функцию
 num = input()
 nums = num.split()
 nums = list(map(int, nums))
 nums.sort()
 f = len(nums)
 
+#Используем след. синтаксис 
 def find_missing_nums(nums):
     o = 1
     list1 = list()
