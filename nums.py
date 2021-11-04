@@ -2,13 +2,13 @@ num = input()
 nums = num.split()
 nums = list(map(int, nums))
 nums.sort()
-n = len(nums)
+f = len(nums)
 
 def find_missing_nums(nums):
-    i = 1
+    o = 1
     list1 = list()
-    for i in range(1,n+1):
-        if i not in nums:
+    for o in range(1,f+1):
+        if o not in nums:
             list1.append(i)
     return list1
 
